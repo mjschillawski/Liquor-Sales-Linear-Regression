@@ -11,7 +11,7 @@ General Assembly, Data Science Immersive
 - [Analysis Explanation](#analysis-explanation/) - Explanation of project's methods and analysis
 - [Project Concepts](#project-concepts/) - Skills and concepts demonstrated
 
-## [Repository Contents]
+## Repository Contents
 
 | FILENAME |     DESCRIPTION    |
 |:-------------:|:--------------:|
@@ -22,7 +22,7 @@ General Assembly, Data Science Immersive
 | [starter-code-mjs](./code/starter-code-mjs.ipynb) | Jupyter notebook with initalize EDA |
 |   [Presentation_Deck](.//)    |    Results slide deck    |
 
-## [Data Description]
+## Data Description
 
 The Iowa liquor dataset provides transaction details of liquor purchase orders by holders of "Class E" liquor licenses in the state of Iowa. Liquor sales are controlled by the state, so licensess must purchase their inventory through the Alcohol Beverages Division. Class E licenses (for grocery, liquor, and convenience stores) allows commercial establishments to sell liquor for off-premises consumption.
 
@@ -30,11 +30,11 @@ Each order that a licensee places is recorded in that dataset, indexed by transa
 
 More details are available [here](https://data.iowa.gov/Economy/Iowa-Liquor-Sales/m3tr-qhgy).
 
-## [Project Overview]
+## Project Overview
 
 ipso
 
-## [Analysis Explanation]
+## Analysis Explanation
 
 My exploratory data analysis revealed that all the variables had extremely close relationships with annual sales, both at the county and store level of analysis. My ultimate goal is to forecast 2016 annual sales using only transaction data from the first 3 months of 2016. 
 
@@ -42,6 +42,6 @@ I assumed that relationships between variables would be similiar in 2016 as in y
 
 After evaluating the models on a variety of metrics, I used the fitted model to predict 2016 annual sales.
 
-## [Project Concepts]
+## Project Concepts
 
 Single linear regression; multiple linear regression; interaction effects; missing data; imputation; hotdecking; exploratory data analysis; correlation; groupby; reshaping; regression metrics; cross-validation.
