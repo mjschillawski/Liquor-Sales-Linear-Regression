@@ -5,11 +5,11 @@ General Assembly, Data Science Immersive
 
 ## Table of Contents
 
-- [Repository Contents](#repository-contents/) - Description of this repository's files
-- [Data Description](#data-description/) - Description of the Iowa liquor dataset
-- [Project Overview](#project-overview/) - Summary of the project's goals
-- [Analysis Explanation](#analysis-explanation/) - Explanation of project's methods and analysis
-- [Project Concepts](#project-concepts/) - Skills and concepts demonstrated
+- [Repository Contents](#repository-contents) - Description of this repository's files
+- [Data Description](#data-description) - Description of the Iowa liquor dataset
+- [Project Overview](#project-overview) - Summary of the project's goals
+- [Analysis Explanation](#analysis-explanation) - Explanation of project's methods and analysis
+- [Project Concepts](#project-concepts) - Skills and concepts demonstrated
 
 ## Repository Contents
 
