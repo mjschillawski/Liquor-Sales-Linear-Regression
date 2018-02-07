@@ -16,12 +16,19 @@ General Assembly, Data Science Immersive
 | FILENAME |     DESCRIPTION    |
 |:-------------:|:--------------:|
 |  [README](./README.md) | Project description |
-| [2016 Iowa Liquor Sales Projections](.//) |    Jupyter notebook with project code    |
+| [2016 Iowa Liquor Sales Projections](./2016 Iowa Liquor Sales Projections.ipynb) |    Jupyter notebook with core project code    |
+| [Process 2014 Data](./Process 2014 Data.ipynb) | Jupyter notebook to process supplemental 2014 IA liquor data |
+| [Check 2016 Data](./Check 2016 Data.ipynb) | Jupyter notebook to validate projections with 2016 IA liquor data |
+| [starter-code-mjs](./starter-code-mjs.ipynb) | Jupyter notebook with initalize EDA |
 |   [Presentation_Deck](.//)    |    Results slide deck    |
 
 ## [Data Description](#data-description)
 
-ipso
+The Iowa liquor dataset provides transaction details of liquor purchase orders by holders of "Class E" liquor licenses in the state of Iowa. Liquor sales are controlled by the state, so licensess must purchase their inventory through the Alcohol Beverages Division. Class E licenses (for grocery, liquor, and convenience stores) allows commercial establishments to sell liquor for off-premises consumption.
+
+Each order that a licensee places is recorded in that dataset, indexed by transaction ID. Details include the store name and location; county; details on the purchases item (type of liquor, vendor, bottle size, state cost, retail cost, and sale cost).
+
+More details are available [here](https://data.iowa.gov/Economy/Iowa-Liquor-Sales/m3tr-qhgy).
 
 ## [Project Overview](#project-overview)
 
@@ -29,8 +36,12 @@ ipso
 
 ## [Analysis Explanation](#analysis-explanation)
 
-ipso
+My exploratory data analysis revealed that all the variables had extremely close relationships with annual sales, both at the county and store level of analysis. My ultimate goal is to forecast 2016 annual sales using only transaction data from the first 3 months of 2016. 
+
+I assumed that relationships between variables would be similiar in 2016 as in years past. I designed a series of linear regressions, ranging from single (first quarter sales) to multiple variables (sales in each of the first 3 months of the year), to model annual sales, fitting the models based 2014 and 2015 liquor transaction data.
+
+After evaluating the models on a variety of metrics, I used the fitted model to predict 2016 annual sales.
 
 ## [Project Concepts](#project-concepts)
 
-ipso
+Single linear regression; multiple linear regression; interaction effects; missing data; imputation; hotdecking; exploratory data analysis; correlation; groupby; reshaping; regression metrics; cross-validation.
