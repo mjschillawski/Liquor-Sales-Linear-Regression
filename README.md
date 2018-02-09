@@ -32,15 +32,19 @@ More details are available [here](https://data.iowa.gov/Economy/Iowa-Liquor-Sale
 
 ## Project Overview
 
-ipso
+The goal of this project was to (1) understand the patterns of Iowa liquor sales in 2015 and (2) predict 2016 liquor sales from 2016 Q1 sales data.
+
+My analysis showed that stores in a 7 counties accounted for nearly 50 percent of annual liquor sales, corresponding with population centers. Further, quarterly sales had a nearly perfect linear relationship with annual sales. 
+
+I modeled the relationship between sales in the first 3 months of the year and total annual sales at the store level. Then I rolled the data forward to 2016 to predict 2016 annual sales, and aggregated individual store predictions at both the county and statewide level. I predict that 2016 liquor sales will exceed 2015 annual sales.
 
 ## Analysis Explanation
 
-My exploratory data analysis revealed that all the variables had extremely close relationships with annual sales, both at the county and store level of analysis. My ultimate goal is to forecast 2016 annual sales using only transaction data from the first 3 months of 2016. 
+My exploratory data analysis revealed that all the variables had extremely close relationships with annual sales, both at the county and store level of analysis. Since my ultimate goal is to forecast 2016 annual sales, I looked for variables with the strongest relationship to it. This was monthly sales. I assumed that relationships between variables would be similiar in 2016 as in years past.
 
-I assumed that relationships between variables would be similiar in 2016 as in years past. I designed a series of linear regressions, ranging from single (first quarter sales) to multiple variables (sales in each of the first 3 months of the year), to model annual sales, fitting the models based 2014 and 2015 liquor transaction data.
+My testing set was constrained to transaction data from the only the first 3 months of 2016, so I built and evaluated a series of regressions that modeled the sales data differently. These ranged from single variable (first quarter sales) to multiple variables (sales in each of the first 3 months of the year), to model annual sales, fitting the models solely with 2015 sales data (and using 2014 sales data as an additional holdout) and fitting models with combined 2014 and 2015 liquor transaction data.
 
-After evaluating the models on a variety of metrics, I used the fitted model to predict 2016 annual sales. I predict that 2016 liquor sales will exceed 2015 levels.
+After evaluating the models on a variety of metrics including cross-validated $R^2$, mean squared error, and median absolute error, I used the fitted model with 3 months of sales and interactions effects to predict 2016 annual sales. I predict that 2016 liquor sales will exceed 2015 levels.
 
 ## Project Concepts
 
