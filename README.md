@@ -19,7 +19,7 @@ General Assembly, Data Science Immersive
 |  [README](./README.md) | Project description |
 | [2016-Iowa-Liquor-Sales-Projections](https://git.generalassemb.ly/mjschillawski/project-2/blob/master/code/2016%20Iowa%20Liquor%20Sales%20Projections.ipynb) |    Jupyter notebook with core project code    |
 | [Process-2014-Data](https://git.generalassemb.ly/mjschillawski/project-2/blob/master/code/Process%202014%20Data.ipynb) | Jupyter notebook to process supplemental 2014 IA liquor data |
-| [starter-code-mjs](https://git.generalassemb.ly/mjschillawski/project-2/blob/master/code/starter-code-mjs.ipynb) | Jupyter notebook with inital EDA |
+| [starter-code-mjs](https://git.generalassemb.ly/mjschillawski/project-2/blob/master/code/starter-code-mjs.ipynb) | Jupyter notebook with initial EDA |
 |   [Presentation_Deck](https://docs.google.com/presentation/d/1S3uBMU3Wlp9ag-wdU-VGkqcJtDwohhdLDl2nD33hLXg/edit?usp=sharing)    |    Results slide deck    |
 
 ## Data Description
