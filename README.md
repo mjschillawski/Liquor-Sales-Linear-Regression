@@ -1,6 +1,7 @@
 # Project 2 - Liquor Sales & Linear Regression
 
 Michael Schillawski, February 9, 2018
+
 General Assembly, Data Science Immersive
 
 ## Table of Contents
