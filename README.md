@@ -17,9 +17,9 @@ General Assembly, Data Science Immersive
 | FILENAME |     DESCRIPTION    |
 |:-------------:|:--------------:|
 |  [README](./README.md) | Project description |
-| [2016 Iowa Liquor Sales Projections](./code/2016 Iowa Liquor Sales Projections.ipynb) |    Jupyter notebook with core project code    |
-| [Process 2014 Data](./code/Process 2014 Data.ipynb) | Jupyter notebook to process supplemental 2014 IA liquor data |
-| [Check 2016 Data](./code/Check 2016 Data.ipynb) | Jupyter notebook to validate projections with 2016 IA liquor data |
+| [2016-Iowa-Liquor-Sales-Projections](./code/2016 Iowa Liquor Sales Projections.ipynb) |    Jupyter notebook with core project code    |
+| [Process-2014-Data](./code/Process 2014 Data.ipynb) | Jupyter notebook to process supplemental 2014 IA liquor data |
+| [Check-2016-Data](./code/Check 2016 Data.ipynb) | Jupyter notebook to validate projections with 2016 IA liquor data |
 | [starter-code-mjs](./code/starter-code-mjs.ipynb) | Jupyter notebook with initalize EDA |
 |   [Presentation_Deck](.//)    |    Results slide deck    |
 
