@@ -19,8 +19,7 @@ General Assembly, Data Science Immersive
 |  [README](./README.md) | Project description |
 | [2016-Iowa-Liquor-Sales-Projections](https://git.generalassemb.ly/mjschillawski/project-2/blob/master/code/2016%20Iowa%20Liquor%20Sales%20Projections.ipynb) |    Jupyter notebook with core project code    |
 | [Process-2014-Data](https://git.generalassemb.ly/mjschillawski/project-2/blob/master/code/Process%202014%20Data.ipynb) | Jupyter notebook to process supplemental 2014 IA liquor data |
-| [Check-2016-Data](https://git.generalassemb.ly/mjschillawski/project-2/blob/master/code/Check%202016%20Data.ipynb) | Jupyter notebook to validate projections with 2016 IA liquor data |
-| [starter-code-mjs](https://git.generalassemb.ly/mjschillawski/project-2/blob/master/code/starter-code-mjs.ipynb) | Jupyter notebook with initalize EDA |
+| [starter-code-mjs](https://git.generalassemb.ly/mjschillawski/project-2/blob/master/code/starter-code-mjs.ipynb) | Jupyter notebook with inital EDA |
 |   [Presentation_Deck](https://docs.google.com/presentation/d/1S3uBMU3Wlp9ag-wdU-VGkqcJtDwohhdLDl2nD33hLXg/edit?usp=sharing)    |    Results slide deck    |
 
 ## Data Description
@@ -41,7 +40,7 @@ My exploratory data analysis revealed that all the variables had extremely close
 
 I assumed that relationships between variables would be similiar in 2016 as in years past. I designed a series of linear regressions, ranging from single (first quarter sales) to multiple variables (sales in each of the first 3 months of the year), to model annual sales, fitting the models based 2014 and 2015 liquor transaction data.
 
-After evaluating the models on a variety of metrics, I used the fitted model to predict 2016 annual sales.
+After evaluating the models on a variety of metrics, I used the fitted model to predict 2016 annual sales. I predict that 2016 liquor sales will exceed 2015 levels.
 
 ## Project Concepts
 
